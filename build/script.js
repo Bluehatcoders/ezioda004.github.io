@@ -111,7 +111,7 @@ $(document).ready(function () {
     // $("figcaption").height($("img").height());
 });
 
-let emojis = ["😂🔫", "🍕", "💻", "✋📱"];
+let emojis = ["😂🔫", "🍕", "💻", "✋📱", "🧠", "⌚"];
 let i = 0;
 setInterval(function () {
     $("#madeWith").hide().html(emojis[i]).fadeIn(500);
